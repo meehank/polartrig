@@ -40,5 +40,8 @@ You can also control
     + to explore dense graphs
 
 ***    
-    
+
+Code can be found at https://github.com/meehank/polartrig
+
+ 
 *copyright 2016 Ken Meehan*
