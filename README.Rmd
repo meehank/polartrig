@@ -42,7 +42,7 @@ You can also control
 ***    
 
 Code is here: https://github.com/meehank/polartrig  
-R presentation slide show pitch is here: http://rpubs.com/meehank/ptp3
+R presentation slide show pitch is here: http://rpubs.com/meehank/ptp4
 
  
 *copyright 2016 Ken Meehan*
