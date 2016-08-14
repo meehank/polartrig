@@ -8,7 +8,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-This is the documentation for the Polar Trig Shiny App.
+This is the documentation for the Polar Trig Shiny App, which can be found at https://meehank.shinyapps.io/polartrig/
+
 
 This simple app is designed to allow fun interactive exploration of graphs, in a polar coordinate system, of functions of the form
   
