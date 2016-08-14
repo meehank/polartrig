@@ -2,8 +2,8 @@ name: polartrig
 account: meehank
 server: shinyapps.io
 appId: 120014
-bundleId: 531628
+bundleId: 531635
 url: https://meehank.shinyapps.io/polartrig/
-when: 1471196623.57496
+when: 1471196969.92438
 asMultiple: FALSE
 asStatic: FALSE
