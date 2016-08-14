@@ -1,4 +1,3 @@
-
 library(shiny)
 
 # Define UI for application that draws a polar graph
@@ -28,9 +27,7 @@ ui <- shinyUI(fluidPage(
                   sliderInput("zoom", label = "Zoom Factor", min=1, max=200, value=1, step = 1)
     ),
     
-    # Show a plot of the generated distribution
-    # mainPanel( width=10,
-    #            plotOutput("polarPlot", height="960px")
+    # Show a plot of the polar graph
     mainPanel( width=10,
       tabsetPanel(
         tabPanel("Polar Sine Graph", plotOutput("polarPlot", height="840px")),

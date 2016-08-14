@@ -1,11 +1,3 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
 
@@ -22,7 +14,6 @@ server <- shinyServer(function(input, output) {
   }
   
   is.odd <- function(x) x %% 2 != 0
-  
   
   output$polarPlot <- renderPlot({
     
@@ -43,7 +34,6 @@ server <- shinyServer(function(input, output) {
     
     xylim <- 1/input$zoom
     
-    #equation <- paste0("r=sin((",input$a,"/",input$b,")theta)")
     equation <- bquote(italic(r)==sin( frac(.(input$a),.(input$b))  * theta))
     
     from <- 0;
