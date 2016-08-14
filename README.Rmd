@@ -1,0 +1,43 @@
+---
+title: "Polar Trig App Documentation"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+This is the documentation for the Polar Trig Shiny App.
+
+This simple app is designed to allow fun interactive exploration of graphs, in a polar coordinate system, of functions of the form
+  
+# $r = \sin(\frac n d \theta)$ 
+
+Use the sliders to control *n* and *d*, the angle coefficient numerator and denominator.
+
+You can also control  
+
+* the step size between successive values of $\theta$  
+    + *measured in degrees*
+* the type of graph  
+    + points
+    + lines
+    + points & lines
+    + histogram-like
+    + stair steps
+* the type of lines
+    + solid  
+    + dashed  
+    + dotted  
+    + dotdash  
+* the width of lines  
+* color  
+    + of graph
+    + of background
+* the zoom factor
+    + to explore dense graphs
+
+***    
+    
+*copyright 2016 Ken Meehan*
